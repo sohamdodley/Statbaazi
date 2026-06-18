@@ -85,7 +85,7 @@ else:
 
     if st.session_state.game_over:
         st.balloons()
-        st.success("🎉 Congratulations! You completed Module 1!")
+        st.success("🎉 Congratulations! You completed the module!")
         st.info(f"**Final Score:** {st.session_state.score} points")
         if st.button("Play Again"):
             st.session_state.current_module = None
