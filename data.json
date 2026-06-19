@@ -1,0 +1,216 @@
+{
+  "modules": {
+    "1": {
+      "name": "Descriptive Statistics",
+      "stages": {
+        "Beginners": [
+          {
+            "id": 1,
+            "question": "A population refers to:",
+            "options": {
+              "A": "A subset of elements selected for study",
+              "B": "The complete set of all elements of interest",
+              "C": "Only the data that have been collected",
+              "D": "A measure calculated from sample data"
+            },
+            "correct": "B",
+            "explanation_wrong": {
+              "A": "A population is not a subset; a subset refers to a sample.",
+              "C": "Collected data usually represents a sample, not the full population.",
+              "D": "A calculated measure from sample data is a statistic, not a population parameter."
+            }
+          },
+          {
+            "id": 2,
+            "question": "A sample is best defined as:",
+            "options": {
+              "A": "The entire group being studied",
+              "B": "A subset drawn from the population",
+              "C": "A parameter of the population",
+              "D": "The same as a census"
+            },
+            "correct": "B",
+            "explanation_wrong": {
+              "A": "The entire group being studied is the population, not the sample.",
+              "C": "A parameter belongs to the population, not the sample.",
+              "D": "Studying the entire population is called a census, not sampling."
+            }
+          },
+          {
+            "id": 14,
+            "question": "The median of the data set 3, 8, 15, 7, 12, 20, 5 when arranged in order is:",
+            "options": {
+              "A": "8",
+              "B": "12",
+              "C": "15",
+              "D": "10"
+            },
+            "correct": "A",
+            "explanation_wrong": {
+              "B": "12 is the fifth value in the ordered list (3, 5, 7, 8, 12, 15, 20), not the median.",
+              "C": "15 is the sixth value in the ordered list, not the median.",
+              "D": "10 is not present in the data."
+            }
+          }
+        ],
+        "Moderate": [
+          {
+            "id": 13,
+            "question": "If the mean of 20 observations is 45, the sum of all observations is:",
+            "options": {
+              "A": "900",
+              "B": "65",
+              "C": "25",
+              "D": "450"
+            },
+            "correct": "A",
+            "explanation_wrong": {
+              "B": "2.5 would be the mean if there were only 10 observations with sum 25.",
+              "C": "35 has no relation to the given information.",
+              "D": "15 is unrelated to finding the sum from the mean."
+            }
+          }
+        ],
+        "Expert": [],
+        "Pro": []
+      }
+    },
+    "2": {
+      "name": "Elementary Probability Theory",
+      "stages": {
+        "Beginners": [
+          {
+            "id": 49,
+            "question": "What is the probability of getting a head when a fair coin is tossed once?",
+            "options": {
+              "A": "1/4",
+              "B": "1/2",
+              "C": "1",
+              "D": "0"
+            },
+            "correct": "B",
+            "explanation_wrong": {
+              "A": "1/4 is the probability of getting two heads in two tosses.",
+              "C": "Probability of 1 means the event is certain, which is not true for a coin toss.",
+              "D": "Probability of 0 means the event is impossible."
+            }
+          }
+        ],
+        "Moderate": [
+          {
+            "id": 74,
+            "question": "A bag contains 5 red and 7 blue balls. Three balls are drawn at random without replacement. What is the probability that all three are red?",
+            "options": {
+              "A": "1/22",
+              "B": "35/792",
+              "C": "1/6",
+              "D": "5/12"
+            },
+            "correct": "A",
+            "explanation_wrong": {
+              "B": "35/792 is the probability of drawing exactly two red balls.",
+              "C": "1/6 would be correct only with replacement.",
+              "D": "5/12 is the probability of drawing a red ball in one draw."
+            }
+          }
+        ],
+        "Expert": [
+          {
+            "id": 80,
+            "question": "From a pack of 52 cards, cards are drawn one by one without replacement. What is the probability that the 10th card drawn is the first king?",
+            "options": {
+              "A": "4/52 × 48/51 × ... × 39/43",
+              "B": "48/52 × 47/51 × ... × 40/44 × 4/43",
+              "C": "4/52",
+              "D": "1/13"
+            },
+            "correct": "B",
+            "explanation_wrong": {
+              "A": "This calculates something else.",
+              "C": "4/52 is the probability of drawing a king in any single draw.",
+              "D": "1/13 is the probability of drawing a king in one draw."
+            }
+          }
+        ],
+        "Pro": []
+      }
+    },
+    "3": {
+      "name": "Random Variables and Distributions",
+      "stages": {
+        "Beginners": [
+          {
+            "id": 97,
+            "question": "A random variable is a variable whose value is determined by:",
+            "options": {
+              "A": "The outcome of a random experiment",
+              "B": "A fixed mathematical formula",
+              "C": "Only the researcher’s choice",
+              "D": "The sample size only"
+            },
+            "correct": "A",
+            "explanation_wrong": {
+              "B": "A fixed formula describes a deterministic variable, not a random variable.",
+              "C": "Researcher’s choice does not make it random.",
+              "D": "Sample size affects estimation but does not define a random variable."
+            }
+          }
+        ],
+        "Moderate": [
+          {
+            "id": 109,
+            "question": "If X is a discrete random variable with PMF P(X = x), then the expected value E(X) is given by:",
+            "options": {
+              "A": "Σ x · P(X = x)",
+              "B": "Σ P(X = x)",
+              "C": "Σ x² · P(X = x)",
+              "D": "Σ [x – E(X)]² · P(X = x)"
+            },
+            "correct": "A",
+            "explanation_wrong": {
+              "B": "This gives the sum of probabilities, which equals 1.",
+              "C": "This is used to calculate E(X²), not E(X).",
+              "D": "This is used to calculate variance."
+            }
+          }
+        ],
+        "Expert": [
+          {
+            "id": 121,
+            "question": "If X and Y are two independent random variables with MGF M_X(t) and M_Y(t), then the MGF of Z = X + Y is:",
+            "options": {
+              "A": "M_X(t) + M_Y(t)",
+              "B": "M_X(t) × M_Y(t)",
+              "C": "M_X(t) / M_Y(t)",
+              "D": "M_X(t) – M_Y(t)"
+            },
+            "correct": "B",
+            "explanation_wrong": {
+              "A": "Addition of MGFs is not correct.",
+              "C": "Division of MGFs has no meaning here.",
+              "D": "Subtraction of MGFs is incorrect."
+            }
+          }
+        ],
+        "Pro": [
+          {
+            "id": 133,
+            "question": "If X and Y are jointly normal with correlation coefficient ρ, then the conditional variance of Y given X = x is:",
+            "options": {
+              "A": "σ_Y² (1 – ρ²)",
+              "B": "σ_Y² ρ²",
+              "C": "σ_Y² / (1 – ρ²)",
+              "D": "σ_Y² + σ_X²"
+            },
+            "correct": "A",
+            "explanation_wrong": {
+              "B": "This would understate the conditional variance.",
+              "C": "This would overstate the conditional variance.",
+              "D": "Adding variances is incorrect here."
+            }
+          }
+        ]
+      }
+    }
+  }
+}
