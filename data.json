@@ -1,0 +1,2347 @@
+{
+  "modules": {
+    "1": {"name": "Descriptive Statistics",
+  "stages": {
+    "Beginners": [
+      {
+        "id": 1,
+        "question": "A population refers to:",
+        "options": {
+          "A": "A subset of elements selected for study",
+          "B": "The complete set of all elements of interest",
+          "C": "Only the data that have been collected",
+          "D": "A measure calculated from sample data"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "A population is not a subset; a subset refers to a sample.",
+          "C": "Collected data usually represents a sample, not the full population.",
+          "D": "A calculated measure from sample data is a statistic, not a population parameter."
+        }
+      },
+      {
+        "id": 2,
+        "question": "A sample is best defined as:",
+        "options": {
+          "A": "The entire group being studied",
+          "B": "A subset drawn from the population",
+          "C": "A parameter of the population",
+          "D": "The same as a census"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "The entire group being studied is the population, not the sample.",
+          "C": "A parameter belongs to the population, not the sample.",
+          "D": "Studying the entire population is called a census, not sampling."
+        }
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is a population parameter?",
+        "options": {
+          "A": "Sample mean",
+          "B": "Sample standard deviation",
+          "C": "Population mean (μ)",
+          "D": "Sample proportion"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "Sample mean is a statistic, not a parameter.",
+          "B": "Sample standard deviation is a statistic.",
+          "D": "Sample proportion is a statistic."
+        }
+      },
+      {
+        "id": 4,
+        "question": "The arithmetic mean is most sensitive to:",
+        "options": {
+          "A": "Extreme values in the data",
+          "B": "The number of observations only",
+          "C": "The median value",
+          "D": "The mode"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "The number of observations affects calculation but is not the main reason for sensitivity.",
+          "C": "The median is more resistant to extreme values than the mean.",
+          "D": "The mode is unrelated to sensitivity to extreme values."
+        }
+      },
+      {
+        "id": 5,
+        "question": "The median of a dataset is:",
+        "options": {
+          "A": "The value that occurs most frequently",
+          "B": "The middle value when observations are arranged in order",
+          "C": "The average of all observations",
+          "D": "Always greater than the mean"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "The most frequently occurring value is the mode.",
+          "C": "The average of all values is the mean.",
+          "D": "The median is not always greater than the mean; it depends on skewness."
+        }
+      },
+      {
+        "id": 6,
+        "question": "Which measure of central tendency is most appropriate for nominal (categorical) data?",
+        "options": {
+          "A": "Arithmetic mean",
+          "B": "Median",
+          "C": "Mode",
+          "D": "Geometric mean"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "The mean is suitable for quantitative data.",
+          "B": "The median works better for ordinal data.",
+          "D": "The geometric mean is used for rates and ratios."
+        }
+      },
+      {
+        "id": 7,
+        "question": "A pie chart is most suitable for showing:",
+        "options": {
+          "A": "Trends over several years",
+          "B": "The relative share of different categories in a total",
+          "C": "The spread of data around the mean",
+          "D": "Frequency distribution of continuous variables"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Trends over time are better shown using line graphs.",
+          "C": "Histograms are used for continuous frequency distributions.",
+          "D": "Scatter plots show relationships between two continuous variables."
+        }
+      },
+      {
+        "id": 8,
+        "question": "A bar chart is most suitable for showing:",
+        "options": {
+          "A": "Trends over time",
+          "B": "Comparison of categories",
+          "C": "Parts of a whole",
+          "D": "Distribution of continuous data"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Trends over time are shown using line graphs.",
+          "C": "Pie charts are used to show parts of a whole.",
+          "D": "Histograms are used for continuous data distribution."
+        }
+      },
+      {
+        "id": 9,
+        "question": "The mode of a dataset is:",
+        "options": {
+          "A": "The average of all values",
+          "B": "The value that occurs most frequently",
+          "C": "The middle value in the ordered list",
+          "D": "The difference between the highest and lowest value"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "The average of all values is the mean.",
+          "C": "The middle value is the median.",
+          "D": "The difference between highest and lowest is the range."
+        }
+      },
+      {
+        "id": 10,
+        "question": "Standard deviation measures:",
+        "options": {
+          "A": "The central value of the data",
+          "B": "The average deviation of observations from the mean",
+          "C": "The middle position in the data",
+          "D": "The proportion of extreme values"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Central value is measured by mean or median.",
+          "C": "Middle position is given by median.",
+          "D": "Proportion of extreme values is not measured by standard deviation."
+        }
+      },
+      {
+        "id": 11,
+        "question": "The coefficient of variation is particularly useful when:",
+        "options": {
+          "A": "Comparing variability of datasets that have different units or different means",
+          "B": "Data are purely categorical",
+          "C": "Only absolute dispersion needs to be compared",
+          "D": "The mean is zero"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "CV is not suitable for purely categorical data.",
+          "C": "When means are similar, standard deviation is better for absolute dispersion.",
+          "D": "CV becomes unreliable when the mean is close to zero or negative."
+        }
+      },
+      {
+        "id": 12,
+        "question": "A frequency distribution is mainly used to:",
+        "options": {
+          "A": "Calculate only the mode",
+          "B": "Organise and summarise large sets of data",
+          "C": "Plot pie charts exclusively",
+          "D": "Eliminate the effect of extreme values"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Mode can be found without a frequency distribution.",
+          "C": "Pie charts show parts of a whole, not primarily for summarising large datasets.",
+          "D": "Frequency distributions organise data but do not remove extreme values."
+        }
+      }
+    ],
+    "Moderate": [
+      {
+        "id": 13,
+        "question": "If the mean of 20 observations is 45, the sum of all observations is:",
+        "options": {
+          "A": "900",
+          "B": "65",
+          "C": "25",
+          "D": "450"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "2.5 would be the mean if there were only 10 observations with sum 25.",
+          "C": "35 has no relation to the given information.",
+          "D": "15 is unrelated to finding the sum from the mean."
+        }
+      },
+      {
+        "id": 14,
+        "question": "The median of the data set 3, 8, 15, 7, 12, 20, 5 when arranged in order is:",
+        "options": {
+          "A": "8",
+          "B": "12",
+          "C": "15",
+          "D": "10"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "8 is not the middle value in the ordered list.",
+          "C": "15 is the fourth value, not the median.",
+          "D": "10 is not present in the data."
+        }
+      },
+      {
+        "id": 15,
+        "question": "Which measure of central tendency is least affected by extreme values?",
+        "options": {
+          "A": "Mean",
+          "B": "Median",
+          "C": "Mode",
+          "D": "Range"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Mean is highly affected by extreme values.",
+          "C": "Mode may not represent the typical value well.",
+          "D": "Range is entirely determined by extreme values."
+        }
+      },
+      {
+        "id": 16,
+        "question": "If every observation in a dataset is multiplied by 4, the standard deviation of the new dataset will be:",
+        "options": {
+          "A": "Same as the original",
+          "B": "Four times the original standard deviation",
+          "C": "One-fourth of the original standard deviation",
+          "D": "Zero"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Standard deviation scales by the same constant.",
+          "C": "Standard deviation increases when values are multiplied by 4.",
+          "D": "Standard deviation becomes zero only if all values are equal."
+        }
+      },
+      {
+        "id": 17,
+        "question": "When there are extreme values in income data, which measure best represents 'typical' income?",
+        "options": {
+          "A": "Mean",
+          "B": "Median",
+          "C": "Mode",
+          "D": "Geometric mean"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Mean is pulled upward by extreme high values.",
+          "C": "Mode may not represent typical income well.",
+          "D": "Geometric mean is not suitable for income levels."
+        }
+      },
+      {
+        "id": 18,
+        "question": "In a positively skewed distribution:",
+        "options": {
+          "A": "Mean = Median = Mode",
+          "B": "Mean > Median > Mode",
+          "C": "Mode > Median > Mean",
+          "D": "Mean < Median < Mode"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Mean = Median = Mode occurs in symmetric distributions.",
+          "C": "Mode > Median > Mean occurs in negatively skewed distributions.",
+          "D": "This relationship does not hold in positively skewed distributions."
+        }
+      },
+      {
+        "id": 19,
+        "question": "The Lorenz curve is primarily used to depict:",
+        "options": {
+          "A": "Central tendency of data",
+          "B": "Degree of inequality in a distribution (e.g., income or wealth)",
+          "C": "Probability of events",
+          "D": "Sampling variability"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Central tendency is measured by mean, median or mode.",
+          "C": "Probability is studied under probability theory.",
+          "D": "Sampling variability is studied under sampling distributions."
+        }
+      },
+      {
+        "id": 20,
+        "question": "The coefficient of variation is used to compare:",
+        "options": {
+          "A": "Absolute dispersion only",
+          "B": "Relative variability across datasets with different means or units",
+          "C": "Only categorical data",
+          "D": "Datasets with identical means"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "When means are similar, standard deviation is better.",
+          "C": "CV is not suitable for purely categorical data.",
+          "D": "CV is useful when means differ."
+        }
+      },
+      {
+        "id": 21,
+        "question": "A frequency polygon is constructed by:",
+        "options": {
+          "A": "Joining the midpoints of the tops of the bars of a histogram",
+          "B": "Plotting only the highest frequency",
+          "C": "Using cumulative frequencies",
+          "D": "Drawing a pie chart"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "Plotting only highest frequency does not form a polygon.",
+          "C": "Ogive is drawn using cumulative frequencies.",
+          "D": "Pie chart is not related to frequency polygon construction."
+        }
+      },
+      {
+        "id": 22,
+        "question": "Quartiles divide the data into:",
+        "options": {
+          "A": "Two equal parts",
+          "B": "Four equal parts",
+          "C": "Ten equal parts",
+          "D": "Hundred equal parts"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Quartiles divide data into four parts.",
+          "C": "Deciles divide data into ten parts.",
+          "D": "Percentiles divide data into hundred parts."
+        }
+      },
+      {
+        "id": 23,
+        "question": "If mean = 60, median = 55 and mode = 50, the distribution is:",
+        "options": {
+          "A": "Symmetrical",
+          "B": "Positively skewed",
+          "C": "Negatively skewed",
+          "D": "Uniform"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Symmetric distributions have Mean = Median = Mode.",
+          "C": "Negatively skewed distributions have Mean < Median < Mode.",
+          "D": "Uniform distributions are symmetric."
+        }
+      },
+      {
+        "id": 24,
+        "question": "The Gini coefficient ranges between:",
+        "options": {
+          "A": "-1 and +1",
+          "B": "0 and 1",
+          "C": "0 and ∞",
+          "D": "-∞ and +∞"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Correlation coefficient ranges between –1 and +1.",
+          "C": "Gini coefficient cannot be negative.",
+          "D": "Gini coefficient lies between 0 and 1."
+        }
+      }
+    ],
+    "Expert": [
+      {
+        "id": 25,
+        "question": "The empirical relationship between mean, median and mode holds reasonably well for:",
+        "options": {
+          "A": "All types of distributions",
+          "B": "Moderately skewed unimodal distributions",
+          "C": "Highly skewed distributions only",
+          "D": "Multimodal distributions"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "The relation holds reasonably well only for moderately skewed unimodal distributions.",
+          "C": "In symmetric distributions, Mean = Median = Mode.",
+          "D": "The empirical relation does not hold well in highly skewed or multimodal distributions."
+        }
+      },
+      {
+        "id": 26,
+        "question": "Why is the mean preferred over the median in symmetric distributions?",
+        "options": {
+          "A": "It is easier to calculate",
+          "B": "It utilises every observation in the data",
+          "C": "It is unaffected by skewness",
+          "D": "It is always equal to the mode"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Ease of calculation is not the main statistical reason.",
+          "C": "Median is unaffected by skewness, but that is not why mean is preferred in symmetric cases.",
+          "D": "Mode is not relevant in this comparison."
+        }
+      },
+      {
+        "id": 27,
+        "question": "When should the coefficient of variation be preferred over standard deviation?",
+        "options": {
+          "A": "When comparing relative variability across datasets with different means or units",
+          "B": "When the data are measured in the same unit and have similar means",
+          "C": "When only absolute dispersion is of interest",
+          "D": "When the sample size is very small"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "When means and units are similar, standard deviation is sufficient.",
+          "C": "Absolute dispersion comparison does not require CV.",
+          "D": "CV is unreliable when mean is close to zero."
+        }
+      },
+      {
+        "id": 28,
+        "question": "A higher value of the Gini coefficient indicates:",
+        "options": {
+          "A": "Greater equality in the distribution",
+          "B": "Greater inequality in the distribution",
+          "C": "Higher average income",
+          "D": "Lower variability"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Higher Gini coefficient indicates greater inequality.",
+          "C": "Gini coefficient does not directly measure average income.",
+          "D": "Gini coefficient is a measure of inequality, not variability alone."
+        }
+      },
+      {
+        "id": 29,
+        "question": "In a right-skewed income distribution, which measure best represents typical income?",
+        "options": {
+          "A": "Mean",
+          "B": "Median",
+          "C": "Mode",
+          "D": "Range"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Mean is pulled upward by extreme high values.",
+          "C": "Mode may not represent typical income well.",
+          "D": "Range is not a measure of central tendency."
+        }
+      },
+      {
+        "id": 30,
+        "question": "The empirical relation Mean – Mode = 3(Mean – Median) is most reliable when:",
+        "options": {
+          "A": "The distribution is highly skewed",
+          "B": "The distribution is moderately skewed and unimodal",
+          "C": "There are many zero values",
+          "D": "The sample size is very small"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "The relation does not hold well in highly skewed distributions.",
+          "C": "Presence of many zero values affects the relation.",
+          "D": "Small sample size is not the condition for the empirical relation."
+        }
+      },
+      {
+        "id": 31,
+        "question": "Which graphical tool is best for comparing frequency distributions of two states?",
+        "options": {
+          "A": "Pie chart of one state",
+          "B": "Frequency polygons of both states on the same graph",
+          "C": "Ogive of one state",
+          "D": "Histogram of one state only"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Pie chart shows parts of a whole for one variable.",
+          "C": "Ogive shows cumulative distribution.",
+          "D": "Frequency polygon of one state does not allow comparison."
+        }
+      },
+      {
+        "id": 32,
+        "question": "If the Lorenz curve lies exactly on the diagonal line of equality, it means:",
+        "options": {
+          "A": "Perfect inequality exists",
+          "B": "Perfect equality exists",
+          "C": "The distribution is highly skewed",
+          "D": "Variance is zero"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Perfect inequality occurs when Lorenz curve is far from the diagonal.",
+          "C": "High skewness is not directly shown by the diagonal position.",
+          "D": "Variance being zero is an extreme case not represented by the diagonal."
+        }
+      },
+      {
+        "id": 33,
+        "question": "Percentiles are useful because they:",
+        "options": {
+          "A": "Divide data into only four parts",
+          "B": "Help understand the position of a value relative to others",
+          "C": "Are useful only for categorical data",
+          "D": "Reduce the influence of extreme values automatically"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Quartiles divide data into only four parts.",
+          "C": "Categorical data do not have meaningful percentiles.",
+          "D": "Percentiles do not reduce the influence of extreme values."
+        }
+      },
+      {
+        "id": 34,
+        "question": "Which measure of dispersion is most affected by extreme values?",
+        "options": {
+          "A": "Standard deviation",
+          "B": "Range",
+          "C": "Mean deviation",
+          "D": "Coefficient of variation"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Range uses only two values and ignores the rest.",
+          "C": "Range is highly affected by outliers.",
+          "D": "Range cannot be negative."
+        }
+      },
+      {
+        "id": 35,
+        "question": "Why is the geometric mean preferred over arithmetic mean when calculating average growth rates over years?",
+        "options": {
+          "A": "It gives higher weight to recent years",
+          "B": "It accounts for compounding effect",
+          "C": "It is always higher than arithmetic mean",
+          "D": "It can handle negative growth rates better"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Geometric mean does not give higher weight to recent years.",
+          "C": "Geometric mean is usually lower than arithmetic mean for growth rates.",
+          "D": "Geometric mean can handle negative growth rates in some cases but is not preferred for that reason."
+        }
+      },
+      {
+        "id": 36,
+        "question": "A distribution with skewness = 0 and kurtosis = 3 is best described as:",
+        "options": {
+          "A": "Positively skewed",
+          "B": "Negatively skewed",
+          "C": "Approximately mesokurtic and symmetric (close to normal)",
+          "D": "Platykurtic with heavy tails"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "Positive skewness has skewness > 0.",
+          "B": "Negative skewness has skewness < 0.",
+          "D": "Platykurtic distributions have kurtosis < 3."
+        }
+      }
+    ],
+    "Pro": [
+      {
+        "id": 37,
+        "question": "The sum of deviations of observations from their mean is always:",
+        "options": {
+          "A": "Positive",
+          "B": "Negative",
+          "C": "Zero",
+          "D": "Equal to the standard deviation"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "Sum of deviations from mean is always zero.",
+          "B": "Mean utilises every observation.",
+          "D": "Assumed mean method is valid for grouped data."
+        }
+      },
+      {
+        "id": 38,
+        "question": "In a right-skewed distribution, the relationship between mean and median is usually:",
+        "options": {
+          "A": "Mean < Median",
+          "B": "Mean > Median",
+          "C": "Mean = Median",
+          "D": "Mode determines which is larger"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "In right-skewed distributions, Mean > Median.",
+          "C": "Mean is usually greater than median in right-skewed data.",
+          "D": "Mode does not solely determine the relationship between mean and median."
+        }
+      },
+      {
+        "id": 39,
+        "question": "The coefficient of variation becomes unreliable when:",
+        "options": {
+          "A": "The distribution is perfectly symmetric",
+          "B": "The mean of the dataset is close to zero or negative",
+          "C": "The sample size exceeds 100",
+          "D": "Comparing datasets measured in the same unit"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Perfect symmetry does not make CV misleading.",
+          "C": "Large sample size does not affect reliability of CV.",
+          "D": "Same units do not make CV unreliable."
+        }
+      },
+      {
+        "id": 40,
+        "question": "Which statement about the median is correct?",
+        "options": {
+          "A": "It utilises every observation efficiently",
+          "B": "It is less efficient than the mean but more robust to extreme values",
+          "C": "It is suitable only for categorical variables",
+          "D": "It is affected by skewness only in symmetric distributions"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Median ignores extreme values but loses efficiency by not using all information.",
+          "C": "This is not true only for categorical variables.",
+          "D": "The statement is not incorrect only in symmetric cases."
+        }
+      },
+      {
+        "id": 41,
+        "question": "If two datasets have identical means and standard deviations but different degrees of skewness, which statement is correct?",
+        "options": {
+          "A": "Their Lorenz curves must coincide",
+          "B": "Their shapes and policy interpretations may still differ substantially",
+          "C": "Their medians must be identical",
+          "D": "Their ranges must be equal"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Lorenz curves need not coincide if skewness differs.",
+          "C": "Medians need not be identical.",
+          "D": "Ranges need not be equal."
+        }
+      },
+      {
+        "id": 42,
+        "question": "When is it more appropriate to focus on percentiles rather than mean and standard deviation?",
+        "options": {
+          "A": "When the distribution is perfectly symmetric",
+          "B": "When the distribution is highly skewed or has extreme values",
+          "C": "When the sample size is very large",
+          "D": "When comparing two identical distributions"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Gini coefficient gives a single summary measure.",
+          "C": "Perfectly symmetric distributions do not require percentile focus.",
+          "D": "Very small samples make percentile estimation unreliable."
+        }
+      },
+      {
+        "id": 43,
+        "question": "What is a key limitation of histograms and frequency polygons?",
+        "options": {
+          "A": "They cannot display frequency distributions",
+          "B": "They can be constructed only for continuous data",
+          "C": "They may give a misleading impression if class intervals are not chosen carefully",
+          "D": "They always provide exact numerical precision"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "Histograms and polygons can display frequency distributions.",
+          "B": "They can be used for both discrete and continuous data with proper class intervals.",
+          "D": "They do not always provide exact numerical precision without reading values."
+        }
+      },
+      {
+        "id": 44,
+        "question": "In NSSO consumption expenditure data (typically right-skewed), which measure is most appropriate for 'typical' household consumption?",
+        "options": {
+          "A": "Mean",
+          "B": "Median",
+          "C": "Mode",
+          "D": "Geometric mean"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "NSSO consumption data is typically right-skewed.",
+          "C": "Mode is often not very useful in such skewed distributions.",
+          "D": "Mean is usually higher than median in right-skewed data."
+        }
+      },
+      {
+        "id": 45,
+        "question": "A leptokurtic distribution is characterised by:",
+        "options": {
+          "A": "Thinner tails than normal distribution",
+          "B": "Heavier tails and sharper peak than normal distribution",
+          "C": "Exactly the same shape as normal distribution",
+          "D": "Lower overall variability"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Leptokurtic distributions have heavier tails.",
+          "C": "Kurtosis = 3 corresponds to mesokurtic (normal-like).",
+          "D": "Higher kurtosis indicates higher probability of extreme values, not lower variability."
+        }
+      },
+      {
+        "id": 46,
+        "question": "A major limitation of correlation coefficient is that:",
+        "options": {
+          "A": "It can measure non-linear relationships well",
+          "B": "It measures only linear association and does not imply causation",
+          "C": "It can be used only for time-series data",
+          "D": "It is unaffected by outliers"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Correlation does not imply causation.",
+          "C": "Correlation can exist without causation.",
+          "D": "This limitation applies to all types of data, not only time-series."
+        }
+      },
+      {
+        "id": 47,
+        "question": "The coefficient of variation is difficult to interpret when the mean is close to zero because:",
+        "options": {
+          "A": "Standard deviation can still be used reliably",
+          "B": "It becomes highly sensitive to small changes in the mean",
+          "C": "It becomes equal to standard deviation",
+          "D": "It is unaffected by the value of the mean"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Standard deviation can still be used but CV becomes unstable.",
+          "C": "CV is different from standard deviation when mean is near zero.",
+          "D": "CV is highly sensitive to the value of the mean when it is close to zero."
+        }
+      },
+      {
+        "id": 48,
+        "question": "For a comprehensive descriptive analysis of regional economic disparities before regression modelling, the most appropriate combination is:",
+        "options": {
+          "A": "Only the mean and the range",
+          "B": "Mean, median, measures of dispersion (including CV), Gini coefficient/Lorenz curve, and skewness",
+          "C": "Only the mode and pie charts",
+          "D": "Only the standard deviation"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Mean and range alone give incomplete picture of distribution and inequality.",
+          "C": "Mode and pie charts are insufficient for disparity analysis.",
+          "D": "Standard deviation alone does not capture shape or inequality."
+        }
+      }
+    ]
+  }
+}	
+},
+    "2": {"name": "Elementary Probability Theory",
+  "stages": {
+    "Beginners": [
+      {
+        "id": 49,
+        "question": "What is the probability of getting a head when a fair coin is tossed once?",
+        "options": {
+          "A": "1/4",
+          "B": "1/2",
+          "C": "1",
+          "D": "0"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1/4 is the probability of getting two heads in two tosses.",
+          "C": "Probability of 1 means the event is certain, which is not true for a coin toss.",
+          "D": "Probability of 0 means the event is impossible."
+        }
+      },
+      {
+        "id": 50,
+        "question": "If a dice is rolled once, what is the probability of getting an even number?",
+        "options": {
+          "A": "1/6",
+          "B": "1/3",
+          "C": "1/2",
+          "D": "2/3"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "1/6 is the probability of getting any specific number.",
+          "B": "1/3 is the probability of getting a multiple of 3.",
+          "D": "2/3 is the probability of getting a number greater than 2."
+        }
+      },
+      {
+        "id": 51,
+        "question": "Two coins are tossed simultaneously. What is the probability of getting at least one head?",
+        "options": {
+          "A": "1/4",
+          "B": "1/2",
+          "C": "3/4",
+          "D": "1"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "1/4 is the probability of getting two heads.",
+          "B": "1/2 is the probability of getting exactly one head.",
+          "D": "Probability of 1 means certain event, which is not true here."
+        }
+      },
+      {
+        "id": 52,
+        "question": "A card is drawn from a well-shuffled deck of 52 cards. What is the probability of drawing a king?",
+        "options": {
+          "A": "1/52",
+          "B": "1/26",
+          "C": "1/13",
+          "D": "4/52"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "1/52 is the probability of drawing a specific card.",
+          "B": "1/26 is the probability of drawing a red king.",
+          "C": "1/13 is the correct simplified probability.",
+          "D": "4/52 simplifies to 1/13."
+        }
+      },
+      {
+        "id": 53,
+        "question": "What is the probability of drawing a red card from a standard deck of 52 cards?",
+        "options": {
+          "A": "1/4",
+          "B": "1/2",
+          "C": "1/13",
+          "D": "26/52"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1/4 is the probability of drawing a specific suit.",
+          "C": "1/13 is the probability of drawing a specific rank.",
+          "D": "26/52 simplifies to 1/2."
+        }
+      },
+      {
+        "id": 54,
+        "question": "If two dice are rolled, what is the probability that the sum is 7?",
+        "options": {
+          "A": "1/6",
+          "B": "1/12",
+          "C": "1/36",
+          "D": "7/36"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "1/12 is not the correct probability for sum = 7.",
+          "C": "1/36 is the probability of a specific outcome like (1,1).",
+          "D": "7/36 is the probability of getting a sum of 7 (correct but written differently)."
+        }
+      },
+      {
+        "id": 55,
+        "question": "A bag contains 3 red balls and 2 blue balls. What is the probability of drawing a blue ball?",
+        "options": {
+          "A": "2/5",
+          "B": "3/5",
+          "C": "1/2",
+          "D": "2/3"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "3/5 is the probability of drawing a red ball.",
+          "C": "1/2 would be correct only if red and blue balls were equal.",
+          "D": "2/3 is not correct for this distribution."
+        }
+      },
+      {
+        "id": 56,
+        "question": "What is the probability of getting a number greater than 4 when a fair die is rolled?",
+        "options": {
+          "A": "1/6",
+          "B": "1/3",
+          "C": "1/2",
+          "D": "2/3"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1/6 is the probability of getting a specific number.",
+          "C": "1/2 would be correct if we considered numbers greater than 3.",
+          "D": "2/3 is the probability of getting a number less than or equal to 4."
+        }
+      },
+      {
+        "id": 57,
+        "question": "Two events are said to be mutually exclusive if:",
+        "options": {
+          "A": "They can occur together",
+          "B": "They cannot occur together",
+          "C": "One is dependent on the other",
+          "D": "Their probabilities add up to more than 1"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "If they can occur together, they are not mutually exclusive.",
+          "C": "Dependence is a different concept.",
+          "D": "Mutually exclusive events have probabilities that add up to at most 1."
+        }
+      },
+      {
+        "id": 58,
+        "question": "If the probability of an event is 0.7, what is the probability that the event does not occur?",
+        "options": {
+          "A": "0.3",
+          "B": "0.7",
+          "C": "1.0",
+          "D": "0.5"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "0.7 is the probability that the event occurs.",
+          "C": "1.0 means the event is certain.",
+          "D": "0.5 means equal chance of occurring or not occurring."
+        }
+      },
+      {
+        "id": 59,
+        "question": "A box contains 5 green and 3 yellow balls. What is the probability of drawing a green ball?",
+        "options": {
+          "A": "3/8",
+          "B": "5/8",
+          "C": "1/2",
+          "D": "2/3"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "3/8 is the probability of drawing a yellow ball.",
+          "C": "1/2 would be correct only if green and yellow balls were equal.",
+          "D": "2/3 is not the correct probability here."
+        }
+      },
+      {
+        "id": 60,
+        "question": "What is the probability of drawing an ace from a well-shuffled deck of 52 cards?",
+        "options": {
+          "A": "1/52",
+          "B": "1/26",
+          "C": "1/13",
+          "D": "4/52"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "1/52 is the probability of drawing a specific card.",
+          "B": "1/26 is the probability of drawing a red ace.",
+          "D": "4/52 simplifies to 1/13."
+        }
+      }
+    ],
+    "Moderate": [
+      {
+        "id": 61,
+        "question": "Two dice are rolled. What is the probability that the sum is greater than 9?",
+        "options": {
+          "A": "1/6",
+          "B": "1/4",
+          "C": "1/3",
+          "D": "5/36"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "1/4 is not the correct probability for sums greater than 9.",
+          "C": "1/3 is the probability of getting a sum less than or equal to 7 in some cases.",
+          "D": "5/36 is the probability of getting a sum of 9 or 10 combined incorrectly."
+        }
+      },
+      {
+        "id": 62,
+        "question": "A bag contains 4 red, 5 blue, and 6 green balls. What is the probability of drawing a blue ball?",
+        "options": {
+          "A": "4/15",
+          "B": "1/3",
+          "C": "5/15",
+          "D": "6/15"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "4/15 is the probability of drawing a red ball.",
+          "C": "5/15 simplifies to 1/3.",
+          "D": "6/15 is the probability of drawing a green ball."
+        }
+      },
+      {
+        "id": 63,
+        "question": "If three coins are tossed, what is the probability of getting exactly two heads?",
+        "options": {
+          "A": "1/8",
+          "B": "3/8",
+          "C": "1/2",
+          "D": "1/4"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1/8 is the probability of getting three heads or three tails.",
+          "C": "1/2 is the probability of getting at least one head.",
+          "D": "1/4 is the probability of getting exactly one head."
+        }
+      },
+      {
+        "id": 64,
+        "question": "A card is drawn from a deck of 52 cards. What is the probability that it is either a king or a queen?",
+        "options": {
+          "A": "1/13",
+          "B": "2/13",
+          "C": "1/26",
+          "D": "4/13"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1/13 is the probability of drawing only kings.",
+          "C": "1/26 is the probability of drawing a specific king or queen.",
+          "D": "4/13 would be correct if we considered all face cards."
+        }
+      },
+      {
+        "id": 65,
+        "question": "Two events A and B are independent. If P(A) = 0.4 and P(B) = 0.5, what is P(A and B)?",
+        "options": {
+          "A": "0.9",
+          "B": "0.2",
+          "C": "0.1",
+          "D": "0.3"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "0.9 is the probability of A or B occurring.",
+          "C": "0.1 would be correct only if the events were mutually exclusive.",
+          "D": "0.3 has no relation to the given probabilities."
+        }
+      },
+      {
+        "id": 66,
+        "question": "A box contains 10 balls numbered 1 to 10. What is the probability of drawing a ball with a prime number?",
+        "options": {
+          "A": "1/5",
+          "B": "2/5",
+          "C": "3/10",
+          "D": "1/2"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1/5 is not correct as there are 4 prime numbers between 1 and 10.",
+          "C": "3/10 would be correct if there were only 3 prime numbers.",
+          "D": "1/2 would mean 5 prime numbers, which is incorrect."
+        }
+      },
+      {
+        "id": 67,
+        "question": "If P(A|B) = P(A), then which of the following is true?",
+        "options": {
+          "A": "A and B are mutually exclusive",
+          "B": "A and B are independent",
+          "C": "A and B are dependent",
+          "D": "P(B|A) = P(B)"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Mutually exclusive events cannot occur together.",
+          "C": "If P(A|B) = P(A), the events are independent, not dependent.",
+          "D": "This is true for independent events but not the direct definition."
+        }
+      },
+      {
+        "id": 68,
+        "question": "A coin is tossed twice. What is the probability of getting the same outcome both times?",
+        "options": {
+          "A": "1/4",
+          "B": "1/2",
+          "C": "3/4",
+          "D": "1"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1/4 is the probability of getting two heads or two tails individually.",
+          "C": "3/4 is the probability of getting different outcomes.",
+          "D": "1 would mean the outcome is certain, which is not true."
+        }
+      },
+      {
+        "id": 69,
+        "question": "From a pack of 52 cards, two cards are drawn at random without replacement. What is the probability that both are kings?",
+        "options": {
+          "A": "1/221",
+          "B": "1/26",
+          "C": "4/52",
+          "D": "1/13"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "1/26 is the probability if drawn with replacement.",
+          "C": "4/52 is the probability of drawing one king.",
+          "D": "1/13 is the probability of drawing one king in a single draw."
+        }
+      },
+      {
+        "id": 70,
+        "question": "If three dice are rolled together, what is the probability that all three show the same number?",
+        "options": {
+          "A": "1/36",
+          "B": "1/216",
+          "C": "1/6",
+          "D": "1/18"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "1/216 is the probability of getting a specific number three times.",
+          "C": "1/6 is the probability for one die.",
+          "D": "1/18 is not the correct probability for this event."
+        }
+      },
+      {
+        "id": 71,
+        "question": "A bag contains 7 white and 3 black balls. Two balls are drawn at random without replacement. What is the probability that both are white?",
+        "options": {
+          "A": "7/15",
+          "B": "21/45",
+          "C": "1/2",
+          "D": "7/10"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "7/15 is the probability of drawing one white ball.",
+          "C": "1/2 would be correct only with replacement or equal balls.",
+          "D": "7/10 is the probability of drawing a white ball in one draw."
+        }
+      },
+      {
+        "id": 72,
+        "question": "If P(A) = 0.5 and P(B|A) = 0.4, what is P(A and B)?",
+        "options": {
+          "A": "0.9",
+          "B": "0.2",
+          "C": "0.1",
+          "D": "0.4"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "0.9 is P(A or B) if events were mutually exclusive.",
+          "C": "0.1 has no relation to the given values.",
+          "D": "0.4 is P(B|A), not the joint probability."
+        }
+      }
+    ],
+    "Expert": [
+      {
+        "id": 73,
+        "question": "If A and B are two events such that P(A) = 0.5, P(B) = 0.4, and P(A ∪ B) = 0.7, then P(A ∩ B) is equal to:",
+        "options": {
+          "A": "0.1",
+          "B": "0.2",
+          "C": "0.3",
+          "D": "0.4"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "0.1 would be correct if P(A ∪ B) was 0.8.",
+          "C": "0.3 is not consistent with the given values.",
+          "D": "0.4 is P(B), not the intersection."
+        }
+      },
+      {
+        "id": 74,
+        "question": "A bag contains 5 red and 7 blue balls. Three balls are drawn at random without replacement. What is the probability that all three are red?",
+        "options": {
+          "A": "5/792",
+          "B": "35/792",
+          "C": "1/6",
+          "D": "5/12"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "35/792 is the probability of drawing exactly two red balls.",
+          "C": "1/6 would be correct only with replacement.",
+          "D": "5/12 is the probability of drawing a red ball in one draw."
+        }
+      },
+      {
+        "id": 75,
+        "question": "If P(A|B) = P(A), then which of the following is true?",
+        "options": {
+          "A": "A and B are mutually exclusive",
+          "B": "A and B are independent",
+          "C": "A and B are dependent",
+          "D": "P(B|A) = P(B)"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Mutually exclusive events cannot occur together.",
+          "C": "If P(A|B) = P(A), the events are independent, not dependent.",
+          "D": "This is true for independent events but not the direct definition."
+        }
+      },
+      {
+        "id": 76,
+        "question": "Three cards are drawn successively without replacement from a pack of 52 cards. What is the probability that all three cards are kings?",
+        "options": {
+          "A": "1/5525",
+          "B": "1/22100",
+          "C": "4/52 × 3/51 × 2/50",
+          "D": "1/13 × 1/12 × 1/11"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "1/22100 is too small and incorrect.",
+          "C": "This expression is correct but needs to be calculated as 1/5525.",
+          "D": "This would be correct only if drawn with replacement."
+        }
+      },
+      {
+        "id": 77,
+        "question": "If P(A|B) = 1, then:",
+        "options": {
+          "A": "A and B are mutually exclusive",
+          "B": "A ⊆ B",
+          "C": "B ⊆ A",
+          "D": "P(A ∩ B) = P(A)"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "Mutually exclusive events have P(A ∩ B) = 0.",
+          "B": "If P(A|B) = 1, then B is a subset of A.",
+          "D": "This is true but not the most accurate description."
+        }
+      },
+      {
+        "id": 78,
+        "question": "A problem in probability is given to three students A, B, and C whose chances of solving it are 1/2, 1/3, and 1/4 respectively. What is the probability that the problem will be solved?",
+        "options": {
+          "A": "1/4",
+          "B": "1/2",
+          "C": "3/4",
+          "D": "11/12"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "1/4 is only C’s probability.",
+          "B": "1/2 is only A’s probability.",
+          "D": "11/12 would be correct if calculated differently."
+        }
+      },
+      {
+        "id": 79,
+        "question": "If A and B are independent events with P(A) = 0.3 and P(B) = 0.4, then P(A|B) is equal to:",
+        "options": {
+          "A": "0.12",
+          "B": "0.3",
+          "C": "0.4",
+          "D": "0.7"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "0.12 is P(A and B).",
+          "C": "0.4 is P(B), not P(A|B).",
+          "D": "0.7 is P(A or B)."
+        }
+      },
+      {
+        "id": 80,
+        "question": "From a pack of 52 cards, cards are drawn one by one without replacement. What is the probability that the 10th card drawn is the first king?",
+        "options": {
+          "A": "4/52 × 48/51 × ... × 39/43",
+          "B": "48/52 × 47/51 × ... × 39/43 × 4/42",
+          "C": "4/52",
+          "D": "1/13"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "This calculates something else.",
+          "C": "4/52 is the probability of drawing a king in any single draw.",
+          "D": "1/13 is the probability of drawing a king in one draw."
+        }
+      },
+      {
+        "id": 81,
+        "question": "If A and B are two events such that P(A) = 0.6, P(B) = 0.5, and P(A ∩ B) = 0.3, then P(A|B) is equal to:",
+        "options": {
+          "A": "0.5",
+          "B": "0.6",
+          "C": "0.3",
+          "D": "0.4"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "0.5 is P(B), not P(A|B).",
+          "C": "0.3 is P(A ∩ B).",
+          "D": "0.4 is not consistent with the given values."
+        }
+      },
+      {
+        "id": 82,
+        "question": "A box contains 6 red, 4 white, and 5 blue balls. Three balls are drawn at random. What is the probability that they are of different colours?",
+        "options": {
+          "A": "6/91",
+          "B": "24/91",
+          "C": "12/91",
+          "D": "48/91"
+        },
+        "correct": "D",
+        "explanation_wrong": {
+          "A": "6/91 is too small.",
+          "B": "24/91 is the probability of getting two of one colour and one of another.",
+          "C": "12/91 is not the correct calculation."
+        }
+      },
+      {
+        "id": 83,
+        "question": "If A and B are mutually exclusive events with P(A) = 0.3 and P(B) = 0.4, then P(A ∪ B) is equal to:",
+        "options": {
+          "A": "0.7",
+          "B": "0.12",
+          "C": "0.1",
+          "D": "1.0"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "0.12 would be correct if they were independent.",
+          "C": "0.1 is incorrect.",
+          "D": "1.0 would mean one of them is certain."
+        }
+      },
+      {
+        "id": 84,
+        "question": "A speaks truth in 75% cases and B in 80% cases. In what percentage of cases are they likely to contradict each other in stating the same fact?",
+        "options": {
+          "A": "35%",
+          "B": "45%",
+          "C": "55%",
+          "D": "65%"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "45% is close but incorrect.",
+          "C": "55% is not the correct calculation.",
+          "D": "65% would be if calculated differently."
+        }
+      }
+    ],
+    "Pro": [
+      {
+        "id": 85,
+        "question": "If A, B, and C are three mutually exclusive and exhaustive events with P(A) = 2P(B) = 3P(C), then P(A) is equal to:",
+        "options": {
+          "A": "1/2",
+          "B": "1/3",
+          "C": "3/11",
+          "D": "6/11"
+        },
+        "correct": "D",
+        "explanation_wrong": {
+          "A": "1/2 would be correct if the ratios were different.",
+          "B": "1/3 is P(B), not P(A).",
+          "C": "3/11 is P(C)."
+        }
+      },
+      {
+        "id": 86,
+        "question": "A and B are two events such that P(A) = 0.4, P(B) = 0.5, and P(A ∩ B) = 0.2. The value of P(A|B) + P(B|A) is:",
+        "options": {
+          "A": "0.9",
+          "B": "1.1",
+          "C": "1.3",
+          "D": "1.5"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "0.9 is too low.",
+          "B": "1.1 is incorrect.",
+          "D": "1.5 would be if calculated differently."
+        }
+      },
+      {
+        "id": 87,
+        "question": "Three persons A, B, and C throw a die in succession. The one who throws 6 first wins. What is the probability that A wins?",
+        "options": {
+          "A": "1/2",
+          "B": "6/11",
+          "C": "36/91",
+          "D": "1/6"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1/2 would be correct if only two persons were playing.",
+          "C": "36/91 is the probability that B wins.",
+          "D": "1/6 is the probability that A throws a 6 on his first throw."
+        }
+      },
+      {
+        "id": 88,
+        "question": "If A and B are two events such that P(A) = 1/2, P(B) = 1/3, and P(A ∩ B) = 1/4, then P(A' ∩ B') is equal to:",
+        "options": {
+          "A": "1/12",
+          "B": "3/4",
+          "C": "1/2",
+          "D": "5/12"
+        },
+        "correct": "D",
+        "explanation_wrong": {
+          "A": "1/12 is P(A ∩ B').",
+          "B": "3/4 is P(A ∪ B).",
+          "C": "1/2 is P(A)."
+        }
+      },
+      {
+        "id": 89,
+        "question": "A speaks truth in 60% cases and B in 70% cases. The probability that they will contradict each other in stating the same fact is:",
+        "options": {
+          "A": "0.46",
+          "B": "0.54",
+          "C": "0.64",
+          "D": "0.36"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "0.54 would be if calculated differently.",
+          "C": "0.64 is too high.",
+          "D": "0.36 is the probability that they both tell the truth or both lie."
+        }
+      },
+      {
+        "id": 90,
+        "question": "If A and B are two events such that P(A) = 0.6, P(B) = 0.5, and P(A ∩ B) = 0.24, then P(A ∪ B) is equal to:",
+        "options": {
+          "A": "0.86",
+          "B": "0.76",
+          "C": "0.36",
+          "D": "0.9"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "0.76 would be correct if P(A ∩ B) was different.",
+          "C": "0.36 is P(A) – P(A ∩ B).",
+          "D": "0.9 would be if P(A ∩ B) was 0."
+        }
+      },
+      {
+        "id": 91,
+        "question": "A problem is given to three students A, B, and C whose probabilities of solving it are 1/2, 1/3, and 1/4 respectively. If they try independently, the probability that the problem will be solved is:",
+        "options": {
+          "A": "1/4",
+          "B": "1/2",
+          "C": "3/4",
+          "D": "11/12"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "1/4 is only C’s probability.",
+          "B": "1/2 is only A’s probability.",
+          "D": "11/12 would be if calculated incorrectly."
+        }
+      },
+      {
+        "id": 92,
+        "question": "If A and B are two events such that P(A) = 1/2, P(B) = 1/3, and P(A ∩ B) = 1/6, then P(A' ∪ B') is equal to:",
+        "options": {
+          "A": "1/2",
+          "B": "2/3",
+          "C": "5/6",
+          "D": "1/3"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "1/2 is P(A).",
+          "B": "2/3 is P(B').",
+          "D": "1/3 is P(B)."
+        }
+      },
+      {
+        "id": 93,
+        "question": "A and B throw a die alternately. The first one to get a 6 wins. What is the probability that A wins?",
+        "options": {
+          "A": "1/2",
+          "B": "6/11",
+          "C": "36/91",
+          "D": "1/6"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1/2 would be correct if they threw simultaneously.",
+          "C": "36/91 is the probability that B wins.",
+          "D": "1/6 is the probability that A gets a 6 on his first throw."
+        }
+      },
+      {
+        "id": 94,
+        "question": "If A and B are two events such that P(A) = 0.4, P(B) = 0.5, and P(A ∩ B) = 0.2, then P(A' ∩ B') is equal to:",
+        "options": {
+          "A": "0.3",
+          "B": "0.4",
+          "C": "0.5",
+          "D": "0.6"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "0.4 is P(A).",
+          "C": "0.5 is P(B).",
+          "D": "0.6 is P(A ∪ B)."
+        }
+      },
+      {
+        "id": 95,
+        "question": "A speaks truth in 75% cases and B in 80% cases. In what percentage of cases are they likely to contradict each other in stating the same fact?",
+        "options": {
+          "A": "35%",
+          "B": "45%",
+          "C": "55%",
+          "D": "65%"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "45% is close but incorrect.",
+          "C": "55% is not the correct calculation.",
+          "D": "65% would be if calculated differently."
+        }
+      },
+      {
+        "id": 96,
+        "question": "If A and B are two events such that P(A) = 0.5, P(B) = 0.4, and P(A ∩ B) = 0.2, then P(A ∪ B) is equal to:",
+        "options": {
+          "A": "0.7",
+          "B": "0.9",
+          "C": "0.3",
+          "D": "0.6"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "0.9 would be correct if P(A ∩ B) was 0.",
+          "C": "0.3 is P(A) – P(A ∩ B).",
+          "D": "0.6 is P(B) + P(A ∩ B)."
+        }
+      }
+    ]
+  }
+}},
+    "3": {
+  "name": "Random Variables and Distributions",
+  "stages": {
+    "Beginners": [
+      {
+        "id": 97,
+        "question": "A random variable is a variable whose value is determined by:",
+        "options": {
+          "A": "The outcome of a random experiment",
+          "B": "A fixed mathematical formula",
+          "C": "Only the researcher’s choice",
+          "D": "The sample size only"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "A fixed formula describes a deterministic variable, not a random variable.",
+          "C": "Researcher’s choice does not make it random.",
+          "D": "Sample size affects estimation but does not define a random variable."
+        }
+      },
+      {
+        "id": 98,
+        "question": "Which of the following is an example of a discrete random variable?",
+        "options": {
+          "A": "Height of a student",
+          "B": "Number of heads in 5 coin tosses",
+          "C": "Time taken to run 100 meters",
+          "D": "Weight of a person"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Height is continuous because it can take any value within a range.",
+          "C": "Time is continuous.",
+          "D": "Weight is continuous."
+        }
+      },
+      {
+        "id": 99,
+        "question": "Which of the following is an example of a continuous random variable?",
+        "options": {
+          "A": "Number of defective items in a batch",
+          "B": "Number of students in a class",
+          "C": "Temperature of a room",
+          "D": "Number of goals scored in a football match"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "Number of defective items is discrete.",
+          "B": "Number of students is discrete.",
+          "D": "Number of goals is discrete."
+        }
+      },
+      {
+        "id": 100,
+        "question": "The probability mass function (PMF) is used for:",
+        "options": {
+          "A": "Continuous random variables",
+          "B": "Discrete random variables",
+          "C": "Both discrete and continuous random variables",
+          "D": "Only deterministic variables"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Continuous random variables use Probability Density Function (PDF).",
+          "C": "PMF is only for discrete variables.",
+          "D": "Deterministic variables do not have probability distributions."
+        }
+      },
+      {
+        "id": 101,
+        "question": "The probability density function (PDF) is used for:",
+        "options": {
+          "A": "Discrete random variables",
+          "B": "Continuous random variables",
+          "C": "Both discrete and continuous random variables",
+          "D": "Only categorical variables"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Discrete random variables use PMF.",
+          "C": "PDF is only for continuous variables.",
+          "D": "Categorical variables use frequency distributions."
+        }
+      },
+      {
+        "id": 102,
+        "question": "For a discrete random variable, the sum of all probabilities in the PMF must be equal to:",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "The number of possible outcomes",
+          "D": "The mean of the distribution"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Sum equal to 0 would mean no outcomes are possible.",
+          "C": "It is not dependent on the number of outcomes.",
+          "D": "Mean is a different concept."
+        }
+      },
+      {
+        "id": 103,
+        "question": "For a continuous random variable, the probability that it takes an exact value is:",
+        "options": {
+          "A": "Always 1",
+          "B": "Always 0",
+          "C": "Equal to its mean",
+          "D": "Equal to its variance"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Probability of 1 means certainty.",
+          "C": "Mean is not related to probability at a single point.",
+          "D": "Variance measures spread, not probability."
+        }
+      },
+      {
+        "id": 104,
+        "question": "The cumulative distribution function (CDF) gives the probability that a random variable is:",
+        "options": {
+          "A": "Greater than a specific value",
+          "B": "Less than or equal to a specific value",
+          "C": "Exactly equal to a specific value",
+          "D": "Not equal to a specific value"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "This is given by 1 – CDF.",
+          "C": "For continuous variables, this probability is 0.",
+          "D": "This is not what CDF represents."
+        }
+      },
+      {
+        "id": 105,
+        "question": "Which of the following is a property of the expected value of a random variable?",
+        "options": {
+          "A": "It is always equal to the mode",
+          "B": "It is a weighted average of all possible values",
+          "C": "It is always an integer",
+          "D": "It is always positive"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Expected value is not necessarily equal to the mode.",
+          "C": "Expected value can be a fraction or decimal.",
+          "D": "Expected value can be negative."
+        }
+      },
+      {
+        "id": 106,
+        "question": "The variance of a random variable measures:",
+        "options": {
+          "A": "The central tendency of the distribution",
+          "B": "The spread or dispersion of the distribution around the mean",
+          "C": "The probability of extreme values",
+          "D": "The number of possible outcomes"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Central tendency is measured by mean or median.",
+          "C": "Probability of extreme values is studied using tails of the distribution.",
+          "D": "Number of outcomes does not measure spread."
+        }
+      },
+      {
+        "id": 107,
+        "question": "If X is a random variable, then Var(aX + b) is equal to:",
+        "options": {
+          "A": "a² Var(X)",
+          "B": "a Var(X) + b",
+          "C": "a² Var(X) + b²",
+          "D": "Var(X) + b"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "Adding a constant does not affect variance.",
+          "C": "Adding a constant does not add b² to variance.",
+          "D": "Adding a constant does not change variance."
+        }
+      },
+      {
+        "id": 108,
+        "question": "The standard deviation of a random variable is:",
+        "options": {
+          "A": "The square of the variance",
+          "B": "The positive square root of the variance",
+          "C": "Always equal to the mean",
+          "D": "Always greater than the variance"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Variance is the square of standard deviation.",
+          "C": "Standard deviation and mean are different concepts.",
+          "D": "Standard deviation can be smaller or larger than variance depending on the value."
+        }
+      }
+    ],
+    "Moderate": [
+      {
+        "id": 109,
+        "question": "If X is a discrete random variable with PMF P(X = x), then the expected value E(X) is given by:",
+        "options": {
+          "A": "Σ x · P(X = x)",
+          "B": "Σ P(X = x)",
+          "C": "Σ x² · P(X = x)",
+          "D": "Σ [x – E(X)]² · P(X = x)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This gives the sum of probabilities, which equals 1.",
+          "C": "This is used to calculate E(X²), not E(X).",
+          "D": "This is used to calculate variance."
+        }
+      },
+      {
+        "id": 110,
+        "question": "If X ~ Binomial(n, p), then the mean of X is:",
+        "options": {
+          "A": "np",
+          "B": "n(1 – p)",
+          "C": "p(1 – p)",
+          "D": "n / p"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "n(1 – p) is the mean of the number of failures.",
+          "C": "p(1 – p) is the variance of a Bernoulli trial.",
+          "D": "n / p is not the mean of a binomial distribution."
+        }
+      },
+      {
+        "id": 111,
+        "question": "If X ~ Poisson(λ), then the variance of X is:",
+        "options": {
+          "A": "λ",
+          "B": "λ²",
+          "C": "1 / λ",
+          "D": "λ(1 – λ)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "λ² is not the variance of Poisson distribution.",
+          "C": "1 / λ is the variance of an exponential distribution in some cases.",
+          "D": "λ(1 – λ) is the variance of a Bernoulli distribution."
+        }
+      },
+      {
+        "id": 112,
+        "question": "If X is a continuous random variable with PDF f(x), then E(X) is given by:",
+        "options": {
+          "A": "∫ x · f(x) dx",
+          "B": "∫ f(x) dx",
+          "C": "∫ x² · f(x) dx",
+          "D": "∫ [x – E(X)]² · f(x) dx"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This gives the total probability, which equals 1.",
+          "C": "This is used to calculate E(X²).",
+          "D": "This is used to calculate variance."
+        }
+      },
+      {
+        "id": 113,
+        "question": "If X ~ Normal(μ, σ²), then the mean and variance are:",
+        "options": {
+          "A": "Mean = μ, Variance = σ²",
+          "B": "Mean = σ², Variance = μ",
+          "C": "Mean = μ, Variance = σ",
+          "D": "Mean = 0, Variance = 1"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This is reversed.",
+          "C": "Variance is σ², not σ.",
+          "D": "This is true only for Standard Normal Distribution."
+        }
+      },
+      {
+        "id": 114,
+        "question": "If X ~ Uniform(a, b), then the mean of X is:",
+        "options": {
+          "A": "(a + b) / 2",
+          "B": "(b – a) / 2",
+          "C": "a + b",
+          "D": "b – a"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "(b – a) / 2 is the half-range, not the mean.",
+          "C": "a + b is the sum of limits.",
+          "D": "b – a is the range."
+        }
+      },
+      {
+        "id": 115,
+        "question": "If X and Y are independent random variables, then Var(X + Y) is equal to:",
+        "options": {
+          "A": "Var(X) + Var(Y)",
+          "B": "Var(X) – Var(Y)",
+          "C": "[Var(X) + Var(Y)]²",
+          "D": "Var(X) × Var(Y)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "Subtraction is not used for variance of sum.",
+          "C": "Squaring the sum of variances is incorrect.",
+          "D": "Multiplication is used for variance of product in some cases."
+        }
+      },
+      {
+        "id": 116,
+        "question": "If X ~ Exponential(λ), then the mean of X is:",
+        "options": {
+          "A": "λ",
+          "B": "1 / λ",
+          "C": "λ²",
+          "D": "e^λ"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "λ is the rate parameter, not the mean.",
+          "C": "λ² is not the mean.",
+          "D": "e^λ is not related to the mean of exponential distribution."
+        }
+      },
+      {
+        "id": 117,
+        "question": "The moment generating function (MGF) of a random variable is useful because it can be used to find:",
+        "options": {
+          "A": "Only the mean",
+          "B": "Only the variance",
+          "C": "Both mean and variance (and higher moments)",
+          "D": "Only the probability mass function"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "MGF can give more than just the mean.",
+          "B": "MGF can give more than just the variance.",
+          "D": "PMF is not derived from MGF directly in most cases."
+        }
+      },
+      {
+        "id": 118,
+        "question": "If X ~ Binomial(n, p) and Y ~ Binomial(m, p) are independent, then X + Y follows:",
+        "options": {
+          "A": "Binomial(n + m, p)",
+          "B": "Binomial(n + m, 2p)",
+          "C": "Poisson(np + mp)",
+          "D": "Normal distribution"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "The probability p remains the same.",
+          "C": "Poisson is a different distribution.",
+          "D": "Sum of binomials is not necessarily normal unless n and m are large."
+        }
+      },
+      {
+        "id": 119,
+        "question": "If X is a random variable with E(X) = μ and Var(X) = σ², then the standardized variable Z = (X – μ) / σ has:",
+        "options": {
+          "A": "Mean = 0 and Variance = 1",
+          "B": "Mean = μ and Variance = σ²",
+          "C": "Mean = 1 and Variance = 0",
+          "D": "Mean = μ / σ and Variance = 1"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This is true for X, not for Z.",
+          "C": "Mean = 1 and Variance = 0 would mean Z is constant.",
+          "D": "This is not the correct standardization."
+        }
+      },
+      {
+        "id": 120,
+        "question": "If X and Y are two independent random variables with finite variances, then Cov(X, Y) is equal to:",
+        "options": {
+          "A": "Var(X) + Var(Y)",
+          "B": "0",
+          "C": "Var(X) × Var(Y)",
+          "D": "E(XY) – E(X)E(Y)"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "This would be Var(X + Y).",
+          "C": "This is not the definition of covariance.",
+          "D": "This is the general formula, but for independent variables it equals 0."
+        }
+      }
+    ],
+    "Expert": [
+      {
+        "id": 121,
+        "question": "If X and Y are two independent random variables with MGF M_X(t) and M_Y(t), then the MGF of Z = X + Y is:",
+        "options": {
+          "A": "M_X(t) + M_Y(t)",
+          "B": "M_X(t) × M_Y(t)",
+          "C": "M_X(t) / M_Y(t)",
+          "D": "M_X(t) – M_Y(t)"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Addition of MGFs is not correct.",
+          "C": "Division of MGFs has no meaning here.",
+          "D": "Subtraction of MGFs is incorrect."
+        }
+      },
+      {
+        "id": 122,
+        "question": "If X ~ N(μ, σ²) and Y = aX + b, then Y follows:",
+        "options": {
+          "A": "N(aμ + b, a²σ²)",
+          "B": "N(aμ + b, aσ²)",
+          "C": "N(μ + b, σ²)",
+          "D": "N(aμ, σ²)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "Variance is scaled by a², not a.",
+          "C": "Mean and variance both change with a and b.",
+          "D": "Both mean and variance are affected."
+        }
+      },
+      {
+        "id": 123,
+        "question": "If X and Y are jointly distributed continuous random variables, then the joint PDF f(x, y) must satisfy:",
+        "options": {
+          "A": "∫∫ f(x, y) dx dy = 1",
+          "B": "∫ f(x, y) dx = 1",
+          "C": "∫ f(x, y) dy = 1",
+          "D": "f(x, y) = f(x) + f(y)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This is marginal, not joint.",
+          "C": "This is also marginal.",
+          "D": "Joint PDF is not the sum of marginals."
+        }
+      },
+      {
+        "id": 124,
+        "question": "If X and Y are independent, then the joint PDF f(x, y) is equal to:",
+        "options": {
+          "A": "f(x) + f(y)",
+          "B": "f(x) × f(y)",
+          "C": "f(x) / f(y)",
+          "D": "f(x) – f(y)"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Sum is not used for independent variables.",
+          "C": "Division is incorrect.",
+          "D": "Subtraction is incorrect."
+        }
+      },
+      {
+        "id": 125,
+        "question": "The conditional expectation E(Y|X = x) is:",
+        "options": {
+          "A": "A constant",
+          "B": "A function of x",
+          "C": "Always equal to E(Y)",
+          "D": "Always equal to Var(Y)"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "It depends on the value of x.",
+          "C": "It equals E(Y) only if X and Y are independent.",
+          "D": "Variance is a different concept."
+        }
+      },
+      {
+        "id": 126,
+        "question": "If X and Y are uncorrelated, then:",
+        "options": {
+          "A": "They are always independent",
+          "B": "Cov(X, Y) = 0",
+          "C": "Var(X + Y) = Var(X) + Var(Y)",
+          "D": "Both B and C"
+        },
+        "correct": "D",
+        "explanation_wrong": {
+          "A": "Uncorrelated does not imply independence in general.",
+          "B": "This is true by definition.",
+          "C": "This is also true when Cov(X, Y) = 0."
+        }
+      },
+      {
+        "id": 127,
+        "question": "If X ~ χ²(ν), then the mean and variance of X are:",
+        "options": {
+          "A": "Mean = ν, Variance = 2ν",
+          "B": "Mean = 2ν, Variance = ν",
+          "C": "Mean = ν, Variance = ν",
+          "D": "Mean = ν/2, Variance = ν"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This is reversed.",
+          "C": "Variance is 2ν, not ν.",
+          "D": "Mean is ν, not ν/2."
+        }
+      },
+      {
+        "id": 128,
+        "question": "If X ~ t(ν), then as ν → ∞, the distribution of X approaches:",
+        "options": {
+          "A": "Normal(0, 1)",
+          "B": "χ²(ν)",
+          "C": "F(ν, ν)",
+          "D": "Uniform(-1, 1)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "χ² is a different distribution.",
+          "C": "F distribution is different.",
+          "D": "Uniform is not the limiting distribution."
+        }
+      },
+      {
+        "id": 129,
+        "question": "If X and Y are two random variables, then Cov(X, Y) = E(XY) – E(X)E(Y) is always true:",
+        "options": {
+          "A": "Only when X and Y are independent",
+          "B": "Only when X and Y are discrete",
+          "C": "Always, regardless of dependence",
+          "D": "Only when X and Y are continuous"
+        },
+        "correct": "C",
+        "explanation_wrong": {
+          "A": "This formula holds regardless of independence.",
+          "B": "It holds for both discrete and continuous variables.",
+          "D": "It holds for both discrete and continuous variables."
+        }
+      },
+      {
+        "id": 130,
+        "question": "If X ~ Gamma(α, β), then the mean of X is:",
+        "options": {
+          "A": "αβ",
+          "B": "α / β",
+          "C": "α + β",
+          "D": "α – β"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "α / β would be correct for a different parameterization.",
+          "C": "Addition is not used for mean of Gamma.",
+          "D": "Subtraction is not used for Beta mean."
+        }
+      },
+      {
+        "id": 131,
+        "question": "If X and Y have a bivariate normal distribution, then the conditional distribution of Y given X = x is:",
+        "options": {
+          "A": "Always normal",
+          "B": "Always uniform",
+          "C": "Always exponential",
+          "D": "Always chi-square"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "Uniform is not the conditional distribution here.",
+          "C": "Exponential is not correct.",
+          "D": "Chi-square is not correct."
+        }
+      },
+      {
+        "id": 132,
+        "question": "If X is a random variable with finite variance, then by Chebyshev’s inequality, P(|X – E(X)| ≥ kσ) ≤ :",
+        "options": {
+          "A": "1 / k",
+          "B": "1 / k²",
+          "C": "k",
+          "D": "k²"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "1 / k is not the correct bound.",
+          "C": "k is greater than 1 and not useful.",
+          "D": "k² would give a bound greater than 1, which is useless."
+        }
+      }
+    ],
+    "Pro": [
+      {
+        "id": 133,
+        "question": "If X and Y are jointly normal with correlation coefficient ρ, then the conditional variance of Y given X = x is:",
+        "options": {
+          "A": "σ_Y² (1 – ρ²)",
+          "B": "σ_Y² ρ²",
+          "C": "σ_Y² / (1 – ρ²)",
+          "D": "σ_Y² + σ_X²"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This would understate the conditional variance.",
+          "C": "This would overstate the conditional variance.",
+          "D": "Adding variances is incorrect here."
+        }
+      },
+      {
+        "id": 134,
+        "question": "If X ~ χ²(ν₁) and Y ~ χ²(ν₂) are independent, then X + Y follows:",
+        "options": {
+          "A": "χ²(ν₁ + ν₂)",
+          "B": "χ²(ν₁ – ν₂)",
+          "C": "F(ν₁, ν₂)",
+          "D": "t(ν₁ + ν₂)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "Subtraction of degrees of freedom is not valid here.",
+          "C": "F distribution is the ratio of chi-squares.",
+          "D": "t distribution is different."
+        }
+      },
+      {
+        "id": 135,
+        "question": "If X ~ t(ν), then X² follows:",
+        "options": {
+          "A": "F(1, ν)",
+          "B": "χ²(ν)",
+          "C": "t(ν²)",
+          "D": "Normal(0, 1)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "χ²(ν) is the square of a standard normal when ν → ∞.",
+          "C": "Squaring t does not give another t.",
+          "D": "Normal is the limiting case, not the square."
+        }
+      },
+      {
+        "id": 136,
+        "question": "If X and Y are two random variables, the best linear predictor of Y based on X is of the form:",
+        "options": {
+          "A": "a + bX",
+          "B": "aX + bY",
+          "C": "a + b/X",
+          "D": "aX² + b"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This includes Y, which is what we are predicting.",
+          "C": "Inverse relationship is not the best linear predictor in general.",
+          "D": "Quadratic term makes it non-linear."
+        }
+      },
+      {
+        "id": 137,
+        "question": "If X and Y have a bivariate normal distribution, which of the following is always true?",
+        "options": {
+          "A": "X and Y are independent",
+          "B": "The conditional distributions are normal",
+          "C": "X and Y are uncorrelated",
+          "D": "X and Y have the same variance"
+        },
+        "correct": "B",
+        "explanation_wrong": {
+          "A": "Independence holds only if correlation is zero.",
+          "C": "They may be correlated.",
+          "D": "Variances can be different."
+        }
+      },
+      {
+        "id": 138,
+        "question": "If X ~ Gamma(α, β) with rate parameterization, then the moment generating function of X is:",
+        "options": {
+          "A": "(1 – βt)^(-α)",
+          "B": "(1 + βt)^(-α)",
+          "C": "e^(αβt)",
+          "D": "(1 – t/β)^(-α)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "The sign inside is incorrect for rate parameterization.",
+          "C": "This would be for a deterministic variable.",
+          "D": "This is for a different parameterization."
+        }
+      },
+      {
+        "id": 139,
+        "question": "If X and Y are uncorrelated and jointly normal, then:",
+        "options": {
+          "A": "X and Y are independent",
+          "B": "X and Y are dependent",
+          "C": "X + Y is not normal",
+          "D": "Cov(X, Y) ≠ 0"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "They are independent, not dependent.",
+          "C": "Sum of jointly normals is always normal.",
+          "D": "Uncorrelated means Cov = 0 by definition."
+        }
+      },
+      {
+        "id": 140,
+        "question": "The Rao-Blackwell theorem is used to:",
+        "options": {
+          "A": "Find the minimum variance unbiased estimator",
+          "B": "Test hypotheses about means",
+          "C": "Estimate the median of a distribution",
+          "D": "Find the maximum likelihood estimator"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "Hypothesis testing is not the purpose of Rao-Blackwell.",
+          "C": "Median estimation is not the focus.",
+          "D": "MLE is found using likelihood, not Rao-Blackwell."
+        }
+      },
+      {
+        "id": 141,
+        "question": "If X ~ Beta(α, β), then the mean of X is:",
+        "options": {
+          "A": "α / (α + β)",
+          "B": "αβ / (α + β)",
+          "C": "(α + β) / 2",
+          "D": "α – β"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This would be incorrect.",
+          "C": "This would be the mean of a uniform distribution.",
+          "D": "Subtraction is not used for Beta mean."
+        }
+      },
+      {
+        "id": 142,
+        "question": "If X and Y are two random variables with finite second moments, then the correlation coefficient ρ satisfies:",
+        "options": {
+          "A": "-1 ≤ ρ ≤ 1",
+          "B": "0 ≤ ρ ≤ 1",
+          "C": "-∞ < ρ < ∞",
+          "D": "ρ ≥ 0"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "Correlation can be negative.",
+          "C": "Correlation is bounded.",
+          "D": "Correlation can be negative."
+        }
+      },
+      {
+        "id": 143,
+        "question": "If X ~ F(d₁, d₂), then 1/X follows:",
+        "options": {
+          "A": "F(d₂, d₁)",
+          "B": "F(d₁, d₂)",
+          "C": "χ²(d₁ + d₂)",
+          "D": "t(d₁ + d₂)"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "The degrees of freedom are reversed.",
+          "C": "Chi-square is not the reciprocal of F.",
+          "D": "t distribution is different."
+        }
+      },
+      {
+        "id": 144,
+        "question": "If X is a random variable and g(X) is a convex function, then by Jensen’s inequality:",
+        "options": {
+          "A": "E[g(X)] ≥ g(E[X])",
+          "B": "E[g(X)] ≤ g(E[X])",
+          "C": "E[g(X)] = g(E[X])",
+          "D": "E[g(X)] = 0"
+        },
+        "correct": "A",
+        "explanation_wrong": {
+          "B": "This would be true for concave functions.",
+          "C": "Equality holds only for linear functions.",
+          "D": "This is not generally true."
+        }
+      }
+    ]
+  }
+}
+  }
+}
