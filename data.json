@@ -1,0 +1,16 @@
+{
+  "modules": {
+    "1": {
+      "name": "Descriptive Statistics",
+      "stages": {}
+    },
+    "2": {
+      "name": "Elementary Probability Theory",
+      "stages": {}
+    },
+    "3": {
+      "name": "Random Variables and Distributions",
+      "stages": {}
+    }
+  }
+}
